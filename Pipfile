@@ -4,21 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-black = "==19.3b0"
-coverage = "==4.5.4"
-coveralls = "==1.8.2"
-flake8 = "==3.7.8"
-graphene = "==3.0.0"
-graphene-django = "==3.0.0b7"
-graphql-core = "==3.1.2"
-pytest = "==5.1.2"
-pytest-cov = "==2.7.1"
-pytest-django = "==3.5.1"
-psycopg2 = "==2.8.3"
-Django = "==2.2.27"
+graphene = "*"
+graphene-django = "*"
+graphql-core = "*"
+psycopg2 = "*"
 graphene-gis = {path = "."}
+django = "*"
 
 [dev-packages]
+flake8 = "*"
+coverage = "*"
+coveralls = "*"
+black = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.10"

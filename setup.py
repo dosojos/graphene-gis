@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 tests_require = [
     "pytest>=5.1.2",
-    "pytest-cov==2.7.1",
+    "pytest-cov>=2.7.1",
     "pytest-django>=3.5.1"
 ]
 
@@ -24,7 +24,7 @@ setup(
     keywords="api graphql graphene geos gis",
     packages=find_packages(exclude=["tests"]),
     author="Rishabh Mehta",
-    author_email="eternal.blizzard23@gmail.com",
+    author_email="...",
     install_requires=[
         "graphene>=3.0.0,<4",
         "graphene-django>=3.0.0b7,<4",
@@ -40,7 +40,7 @@ setup(
     },
 
     classifiers=(
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.10",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ),
